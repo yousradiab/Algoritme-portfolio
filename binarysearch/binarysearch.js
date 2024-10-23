@@ -3,7 +3,6 @@
 function binarySearch(search, values, comfunc) {
   let min = 0;
   let max = values.length - 1;
-  let found = false;
 
   while (!found && min <= max) {
     let middle = Math.floor((min + max) / 2);
